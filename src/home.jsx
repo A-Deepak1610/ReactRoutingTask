@@ -6,9 +6,9 @@ export default function Home() {
   return (
     <div>
         <ul>
-            <li onClick={()=>{navigate('/home')}}> Home</li>
-            <li onClick={()=>{navigate('/mainpage')}}>Main Page</li>
-            <li onClick={()=>{navigate('/about')}}>About</li>
+            <li onClick={()=>{navigate('/ReactRoutingTask/home')}}> Home</li>
+            <li onClick={()=>{navigate('/ReactRoutingTask/mainpage')}}>Main Page</li>
+            <li onClick={()=>{navigate('/ReactRoutingTask/about')}}>About</li>
         </ul>
     </div>
   )

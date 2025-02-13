@@ -10,10 +10,10 @@ function App() {
   return (
     <>
        <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/home" element={<Homepage/>} />
-          <Route path="/about" element={<About/>} />
-          <Route path="/mainpage" element={<Mainpage/>} />
+          <Route path="/ReactRoutingTask/" element={<Home/>} />
+          <Route path="/ReactRoutingTask/home" element={<Homepage/>} />
+          <Route path="/ReactRoutingTask/about" element={<About/>} />
+          <Route path="/ReactRoutingTask/mainpage" element={<Mainpage/>} />
         </Routes>
     </>
   )
